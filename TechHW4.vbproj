@@ -96,6 +96,7 @@
     <Content Include="RequestOrder.aspx" />
     <Content Include="PlaceOrder.aspx" />
     <Content Include="UpdateOrder.aspx" />
+    <Content Include="Login.aspx" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="My Project\AssemblyInfo.vb" />
@@ -143,6 +144,13 @@
     </Compile>
     <Compile Include="UpdateOrder.aspx.vb">
       <DependentUpon>UpdateOrder.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Login.aspx.designer.vb">
+      <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Login.aspx.vb">
+      <DependentUpon>Login.aspx</DependentUpon>
       <SubType>ASPXCodebehind</SubType>
     </Compile>
   </ItemGroup>

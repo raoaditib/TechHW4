@@ -2,7 +2,7 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-    <section class="text-white bg-primary mb-0" id="about">
+ <section class="text-white bg-primary mb-0" id="about">
         <div class="container">
             <h2 class="text-uppercase text-center text-white" style="font-size: 40px;">order history</h2>
             <p>Customer Service Representative</p>
@@ -46,4 +46,6 @@
             </div><button class="btn btn-primary" type="button" style="text-align: center;background: rgb(16,101,84);">Add Update</button>
         </div>
     </section>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/js/freelancer.js"></script>
 </asp:Content>
